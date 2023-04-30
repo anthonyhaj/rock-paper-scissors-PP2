@@ -85,7 +85,7 @@ header h1 {
 }
 
 .score h3 {
-    padding: 1.25rem;
+    padding: 1rem;
     font-size: 1.25rem;
 }
 
@@ -129,14 +129,43 @@ header h1 {
 
 /* media queries */
 
+@media (min-width: 916px) and (max-width: 2000px) {
+    .container {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 916px) {
+    * {
+        font-size: 0.9rem
+    }
+
+    .container {
+        max-width: 55%;
+    }
+
+    .player-move button img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .score h3 {
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+
+    .score span {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 577px) {
     * {
         font-size: 0.875rem;
     }
 
     .container {
-        display: inline-block;
-        margin: 1.5rem;
+        max-width: 75%;
     }
 
     .player-move button {
@@ -147,20 +176,43 @@ header h1 {
         width: 60px;
         height: 60px;
     }
-    
-}
 
-@media screen and (max-width: 358px) {
-    * {
-        font-size: 	0.688rem;
+    .score h3 {
+        font-size: 1rem;
+        padding: 0.6rem;
     }
 
     .score span {
-        font-size: 0.875rem;
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 365px) {
+
+    * {
+        font-size: 1rem
+    }
+
+    .container {
+        max-width: ;
+    }
+
+    .score span {
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 311px) {
+
+    * {
+        font-size: 1rem;
+    }
+
+     .container {
+        font-size: 0.5rem;
+    }
+
     .player-move button img {
         width: 50px;
         height: 50px;
