@@ -126,7 +126,7 @@ header h1 {
 
 /* media queries */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 577px) {
     * {
         font-size: 0.875rem;
     }
@@ -141,13 +141,18 @@ header h1 {
     }
 
     .player-move button img {
-        width:;
-        height: ;
+        width: 60px;
+        height: 60px;
     }
+    
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 358px) {
     * {
-        font-size: 	0.75rem;
+        font-size: 	0.688rem;
+    }
+
+    .score span {
+        font-size: 0.875rem;
     }
 }
