@@ -244,7 +244,7 @@ All browsers respond well. All fonts, links, and images work as expected.
 <img src="docs/user-stories/user-stories-5.png">
 </details>
 
-6. I want the user to see both moves being made when choosing
+6. I want the user to see an animation of the computer choice
 
 | **Feature**         | **Action**                       | **Expected Result**                      | **Actual Result** |
 | ------------------- | -------------------------------- | ---------------------------------------  | ----------------- |
@@ -254,14 +254,14 @@ All browsers respond well. All fonts, links, and images work as expected.
 <img src="docs/user-stories/user-stories-6.png">
 </details>
 
-7. I want the user to see an animation of the computer choice
+7. I want the score to update correctly for user and computer
 
-| **Feature**         | **Action**                       | **Expected Result**                      | **Actual Result** |
-| ------------------- | -------------------------------- | ---------------------------------------  | ----------------- |
-| Choose move buttons | Click on button to choose a move | Shows animation for random computer move | Works as expected |
+| **Feature**         | **Action**                       | **Expected Result**           | **Actual Result** |
+| ------------------- | -------------------------------- | ----------------------------  | ----------------- |
+| Choose move buttons | Click on button to choose a move | Score updates based on winner | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-stories/user-stories-6.png">
+<img src="docs/user-stories/user-stories-7.png">
 </details>
 
 ## Bugs
