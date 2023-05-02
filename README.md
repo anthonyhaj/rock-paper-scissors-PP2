@@ -161,6 +161,8 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 <img src="docs/validation/jshint-validator.png">
 </details>
 
+### Accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to test accessibility
 
 
 
