@@ -56,7 +56,7 @@ function playRound(playerMove) {
         computerScoreDisplay.textContent = computerScore;
     }
     
-    if (round === 5) {
+    if (round === 10) {
         if (playerScore > computerScore) {
             resultDisplay.textContent = 'You win the game!'
         } else if (computerScore > playerScore) {
@@ -72,6 +72,18 @@ function playRound(playerMove) {
     }
 }
 
+// Function to reset game state
+function resetGame() {
+    playerScore = 0;
+    computerScore = 0;
+    round = 1;
+    playerScoreDisplay.textContent = 0;
+    computerScoreDisplay.textContent = 0;
+    rockButton.disabled = false;
+    paperButton.disabled = false;
+    scissorsButton.disabled = false;
+}
+
 // Event listeners for player moves
 
 rockButton.addEventListener('click', function () {
@@ -83,4 +95,8 @@ paperButton.addEventListener('click', function () {
 scissorsButton.addEventListener('click', function () {
     playRound('scissors');
 });
+playAgainButton.addEventListener('click', function () {
+        resetGame();
+});
+
 
