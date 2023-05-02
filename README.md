@@ -68,10 +68,9 @@
   5. I want to be able to play again
 
   ### Site Owner
-  6. I want the user to see both moves being made
-  7. I want the user to see an animation of the computer choice
-  8. I want the score to update correctly for user and computer
-  9. I want the user to be able to see the repo for the game
+  6. I want the user to see an animation of the computer choice
+  7. I want the score to update correctly for user and computer
+  8. I want the user to be able to see the repo for the game
 
  ## Design
 
@@ -246,6 +245,16 @@ All browsers respond well. All fonts, links, and images work as expected.
 </details>
 
 6. I want the user to see both moves being made when choosing
+
+| **Feature**         | **Action**                       | **Expected Result**                      | **Actual Result** |
+| ------------------- | -------------------------------- | ---------------------------------------  | ----------------- |
+| Choose move buttons | Click on button to choose a move | Shows animation for random computer move | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-stories-6.png">
+</details>
+
+7. I want the user to see an animation of the computer choice
 
 | **Feature**         | **Action**                       | **Expected Result**                      | **Actual Result** |
 | ------------------- | -------------------------------- | ---------------------------------------  | ----------------- |
