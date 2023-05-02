@@ -155,6 +155,12 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 </details>
 
 ### Javascript Validation
+- JsHint JS Validation Service was used to validate the Javascript code. No errors found
+
+<details><summary>Js Code</summary>
+<img src="docs/validation/jshint-validator.png">
+</details>
+
 
 
 
