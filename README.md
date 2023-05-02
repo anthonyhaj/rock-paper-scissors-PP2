@@ -131,6 +131,15 @@
 <img src="docs/features/chosen-move-feature.png">
 </details>
 
+### Result and play again
+- Shows result for current round and end result for game winner and a play again button for reseting game
+
+<details><summary>See feature</summary>
+<img src="docs/features/win-feature.png">
+</details>
+
+
+
 
 
 
