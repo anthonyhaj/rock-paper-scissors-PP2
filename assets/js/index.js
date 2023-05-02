@@ -36,6 +36,19 @@ function updateComputerMoveImage(computerMove) {
     computerMoveImg.src = computerImage;
 }
 
+// Function to update the player move image
+function updatePlayerMoveImage(playerMove) {
+    let playerImage = '';
+    if (playerMove === 'rock') {
+        playerImage = './assets/images/rock-r.png';
+    } else if (playerMove === 'paper') {
+        playerImage = './assets/images/paper-r.png';
+    } else if (playerMove === 'scissors') {
+        playerImage = './assets/images/scissors-r.png';
+    }
+    playerMoveImg.src = playerImage;
+}
+
 // Function to play a single round of the game
 function playRound(playerMove) {
     const computerMove = getComputerMove();
@@ -56,6 +69,8 @@ function playRound(playerMove) {
         computerScore++;
         computerScoreDisplay.textContent = computerScore;
     }
+
+    updatePlayerMoveImage(playerMove);
     
     if (round === 10) {
         if (playerScore > computerScore) {
