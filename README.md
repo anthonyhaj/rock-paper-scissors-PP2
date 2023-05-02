@@ -162,7 +162,11 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 </details>
 
 ### Accessibility
-The WAVE WebAIM web accessibility evaluation tool was used to test accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to test accessibility. No errors found however contrast errors show a white background styling error for the main header text and footer paragraph although no such style exists
+
+<details><summary>Wave Validator</summary>
+<img src="docs/validation/wave-validator.png">
+</details>
 
 
 
