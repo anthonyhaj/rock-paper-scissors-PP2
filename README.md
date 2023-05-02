@@ -35,3 +35,17 @@
   - [Deployment](#deployment)
   - [Credits](#credits)
   - [Acknowledgements](#acknowledgements)
+
+  ## Project Goals
+  - The goal of this project was to create a simple rock, paper, scissors game that is interactive
+
+  ### User Goals
+  - Play a rock, paper, scissors game against a computer
+
+  ### Site Owner Goals
+  - To make a game that is simple and interactive
+  - To make a game that keeps track of score 
+  - To make a game that can be played on any device
+
+ 
+
