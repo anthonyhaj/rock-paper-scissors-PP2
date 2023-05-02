@@ -151,8 +151,7 @@ footer {
     padding: 30px;
 }
 .p-footer p {
-    font-size: 0.7rem;
-    background-color: transparent;
+    font-size: 0.5rem;
     color: #fff;
 }
 .a-footer a {
@@ -178,7 +177,7 @@ footer {
     }
 
     .container {
-        top: 15%;
+        top: 17%;
     }
 
     .player-move button img {
