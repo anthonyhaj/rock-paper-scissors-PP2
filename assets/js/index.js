@@ -16,7 +16,7 @@ const computerMoveImg = document.querySelector('.computer-move img');
 // Function to generate random computer move
 function getComputerMove() {
     const moves = ['rock', 'paper', 'scissors'];
-    const randomIndex = Math.floor (math.random() * moves.length);
+    const randomIndex = Math.floor (Math.random() * moves.length);
     return moves[randomIndex];
 }
 
@@ -53,4 +53,34 @@ function playRound(playerMove) {
         computerScore++;
         computerScoreDisplay.textContent = computerScore;
     }
+    
+    if (round === 5) {
+        if (playerScore > computerScore) {
+            resultDisplay.textContent = 'You win the game!'
+        } else if (computerScore > playerScore) {
+            resultDisplay.textContent = 'You lose the game!'
+        } else {
+            resultDisplay.textContent = "It's a tie game!"
+        }
+        rockButtton.disabled = true;
+        paperButton.disabled = true;
+        scissorsButton.disabled = true;
+    } else {
+        round++;
+    }
+}
 
+// Event listeners for player moves
+newFunction();
+
+function newFunction() {
+    rockButtton.addEventListener('click', function () {
+        playRound('rock');
+    });
+    paperButton.addEventListener('click', function () {
+        playRound('paper');
+    });
+    scissorsButton.addEventListener('click', function () {
+        playRound('scissors');
+    });
+}
