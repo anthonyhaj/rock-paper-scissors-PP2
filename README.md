@@ -244,3 +244,12 @@ All browsers respond well. All fonts, links, and images work as expected.
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-stories-5.png">
 </details>
+
+## Bugs
+- Bug in javascript file for missing semicolons. Fixed by adding corresponding semicolons
+- Bug in footer anchor element due to extra closing tag. Fixed by deleting
+- Container div was not fitting correctly in the middle of page. Fixed by using top and left property
+- Background image was not showing due to incorrect filepath. Fixed by using ../ instead of ./ in css stylesheet
+- Footer was appearing about container. Fixed by changing position to fixed and adding a top property
+- Recieved error for not having text inside my footer anchor element although it is only a font awesome icon. Fixed by adding aria-label to describe link"
+
