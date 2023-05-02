@@ -47,5 +47,18 @@
   - To make a game that keeps track of score 
   - To make a game that can be played on any device
 
- 
+  ## User Experience
+
+  ### Target Audience
+  - Anyone who enjoys rock, paper, scissors
+
+  ### User Requirements and Expectations
+  - Easy and simple mechanics
+  - Scoring system to track winner
+  - Display results for each move and game winner
+  - Responsiveness on all devices
+  - Link to project repo 
+
+  
+
 
