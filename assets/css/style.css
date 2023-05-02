@@ -95,6 +95,7 @@ header h1 {
     text-align: center;
     margin-bottom: 0.625rem;
 }
+
 .choice {
     display: flex;
 }
@@ -105,6 +106,7 @@ header h1 {
     width: 100px;
     height: 100px;
 }
+
 .computer-move img {
     display: block;
     margin: 0 auto;
@@ -150,10 +152,12 @@ footer {
     width: 90%;
     padding: 30px;
 }
+
 .p-footer p {
     font-size: 0.5rem;
     color: #fff;
 }
+
 .a-footer a {
     color: #fff;
     text-align: center;
@@ -165,7 +169,7 @@ footer {
 
 /* media queries */
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .container {
         top: 15%;
     }
@@ -226,7 +230,7 @@ footer {
     .score span {
         font-size: 1rem;
     }
-    
+
 }
 
 @media screen and (max-width: 430px) {
@@ -244,6 +248,7 @@ footer {
         width: 90px;
         height: 90px;
     }
+
     .computer-move img {
         width: 90px;
         height: 90px;
@@ -260,12 +265,23 @@ footer {
         font-size: 0.7rem;
     }
 
-     .container {
+    .container {
         font-size: 0.5rem;
     }
 
     .player-move button img {
         width: 40px;
         height: 40px;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .container {
+        padding: 5px;
+        top: 90px;
+    }
+
+    header h1 {
+        font-size: 2rem;
     }
 }
