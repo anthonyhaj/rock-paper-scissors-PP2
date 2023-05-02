@@ -14,6 +14,7 @@ const playerScoreDisplay = document.getElementById("p-score");
 const computerScoreDisplay = document.getElementById("c-score");
 const resultDisplay = document.getElementById("result-text");
 const computerMoveImg = document.querySelector('.computer-move img');
+const playerMoveImg = document.querySelector('.you-chose img');
 
 // Function to generate random computer move
 function getComputerMove() {
