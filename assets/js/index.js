@@ -79,7 +79,6 @@ function resetGame() {
     round = 1;
     playerScoreDisplay.textContent = 0;
     computerScoreDisplay.textContent = 0;
-    resultDisplay.textContent = '';
     rockButton.disabled = false;
     paperButton.disabled = false;
     scissorsButton.disabled = false;
