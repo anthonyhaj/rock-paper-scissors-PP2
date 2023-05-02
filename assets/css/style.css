@@ -144,22 +144,21 @@ header h1 {
 /* footer */
 
 footer {
-    position: absolute;
-    top: 95%;
+    display: block;
+    position: fixed;
+    top: 90%;
+    width: 90%;
 }
-
-footer p {
-    font-size: 0.8rem;
+.p-footer p {
+    font-size: 0.7rem;
     background-color: transparent;
     color: #fff;
-    margin: 20px;
 }
-
-footer p > a {
+footer a {
     color: #fff;
-    font-size: large;
     text-align: center;
-    margin-left: 5rem;
+    float: right;
+    transform: scale(3.5);
 }
 
 /* media queries */
