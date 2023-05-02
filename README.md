@@ -138,6 +138,24 @@
 <img src="docs/features/win-feature.png">
 </details>
 
+## Validation
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. A pass with no errors
+
+<details><summary>Index Page</summary>
+<img src="docs/validation/html-validator.png">
+</details>
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. A pass with no errors
+
+<details><summary>All CSS</summary>
+<img src="docs/validation/css-validator.png">
+</details>
+
+### Javascript Validation
+
 
 
 
