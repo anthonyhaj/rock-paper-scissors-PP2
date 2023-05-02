@@ -12,3 +12,10 @@ const playerScoreDisplay = document.getElementById("p-score");
 const computerScoreDisplay = document.getElementById("c-score");
 const resultDisplay = document.getElementById("result-text");
 const computerMoveImg = document.querySelector('.computer-move img');
+
+// Function to generate random computer move
+function getComputerMove() {
+    const moves = ['rock', 'paper', 'scissors'];
+    const randomIndex = Math.floor (math.random() * moves.length);
+    return moves[randomIndex];
+}
