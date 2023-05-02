@@ -227,11 +227,20 @@ All browsers respond well. All fonts, links, and images work as expected.
 
 4. I want to know if I have won or lost the game
 
-| **Feature**         | **Action**                               | **Expected Result**                          | **Actual Result** |
-| ------------------- | ---------------------------------------- | -------------------------------------------  | ----------------- |
-| Game Result         | Game result updates on win or lose state | Game notifies when player wins or loses      | Works as expected |
+| **Feature**  | **Action**                               | **Expected Result**                          | **Actual Result** |
+| ------------ | ---------------------------------------- | -------------------------------------------  | ----------------- |
+| Game Result  | Game result updates on win or lose state | Game notifies when player wins or loses      | Works as expected |
 
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-stories-4.png">
 </details>
 
+5. I want to be able to play again
+
+| **Feature**         | **Action**                    | **Expected Result**             | **Actual Result** |
+| ------------------- | ----------------------------- | ------------------------------  | ----------------- |
+| Play again button   | Click on button to play again | Resets game and scoreboard      | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-stories-5.png">
+</details>
