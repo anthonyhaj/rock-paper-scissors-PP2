@@ -59,6 +59,26 @@
   - Responsiveness on all devices
   - Link to project repo 
 
-  
+  ## User Stories
+
+  ### Site User
+  - I want to see the moves I can choose
+  - I want to see what move the computer has chosen
+  - I want to keep track of the score
+  - I want to know if I have won or lost the game
+  - I want to be able to play again
+
+  ### Site Owner
+  - I want the user to see both moves being made
+  - I want the user to see an animation of the computer choice
+  - I want the score to update correctly for user and computer
+  - I want the user to be able to see the repo for the game
+
+
+
+
+
+
+
 
 
