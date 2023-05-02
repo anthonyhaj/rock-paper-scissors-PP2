@@ -176,6 +176,8 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 </details>
 
 ## Testing
+
+### Device Testing
 The website was tested using Google Chrome Developer Tools sizing all available devices
 
 The website was tested on:
@@ -185,6 +187,12 @@ The website was tested on:
 - iPhone 7
 - iPhone X
 
+### Browser compatibility
+Tested on multiple browsers and responsiveness and design works as expected
+- Tested on Google Chrome
+- Tested on Firefox
+- Tested on Microsoft Edge
+All browsers respond well. All fonts, links, and images work as expected.
 
 
 
