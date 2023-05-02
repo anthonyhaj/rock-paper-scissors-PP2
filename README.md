@@ -282,3 +282,30 @@ All browsers respond well. All fonts, links, and images work as expected.
 - Footer was appearing about container. Fixed by changing position to fixed and adding a top property
 - Recieved error for not having text inside my footer anchor element although it is only a font awesome icon. Fixed by adding aria-label to describe link"
 
+## Deployment
+
+### Github Pages
+  The site was deployed to GitHub pages. This is how:
+1. In the GitHub repository, navigate to the Settings tab 
+4. On left hand side select Pages
+2. From the pages section, under build and deployment, choose main root branch
+3. Once the master branch has been selected, refresh the page and it will appear as a link at the top of the pages section of settings.
+
+### Forking Github Repository
+1. Go to GitHub repository 
+2. Click on Fork button located in the top right corner
+
+### Local Repository Cloning
+1. Go to the GitHub repository
+2. Click on Code button above all files
+3. Copy HTTPS link to clone
+4. On git bash change current directory to desired clone directory
+5. Type git clone and paste URL and press enter
+
+## Credits
+
+
+
+
+
+
