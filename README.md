@@ -117,6 +117,22 @@
 <img src="docs/features/chose-move-feature.png">
 </details>
 
+### Score
+- 2 score areas showing player score and computer score
+
+<details><summary>See feature</summary>
+<img src="docs/features/score-feature.png">
+</details>
+
+### Moves chosen 
+- Shows the move chosen by player and computer move with shifting animation cycling for possible choices until landing on a random choice
+
+<details><summary>See feature</summary>
+<img src="docs/features/chosen-move-feature.png">
+</details>
+
+
+
 
 
 
