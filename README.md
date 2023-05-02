@@ -194,11 +194,26 @@ Tested on multiple browsers and responsiveness and design works as expected
 - Tested on Microsoft Edge
 All browsers respond well. All fonts, links, and images work as expected.
 
+### Testing user stories
+1. I want to see the moves I can choose
 
+| **Feature**         | **Action**         | **Expected Result**                       | **Actual Result** |
+| ------------------- | ------------------ | ----------------------------------------  | ----------------- |
+| Choose move buttons | Click on the icons | Game starts and move chosen image updates | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-stories-1.png">
+</details>
 
+2. I want to see what move the computer has chosen
 
+| **Feature**         | **Action**         | **Expected Result**                          | **Actual Result** |
+| ------------------- | ------------------ | -------------------------------------------  | ----------------- |
+| Computer choice     | Click on the icons | Game starts and computer chooses random move | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-stories-2.png">
+</details>
 
 
 
