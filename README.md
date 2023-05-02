@@ -264,6 +264,16 @@ All browsers respond well. All fonts, links, and images work as expected.
 <img src="docs/user-stories/user-stories-7.png">
 </details>
 
+8. I want the user to be able to see the repo for the game
+
+| **Feature**                 | **Action**                                  | **Expected Result**            | **Actual Result** |
+| --------------------------- | ------------------------------------------- | -----------------------------  | ----------------- |
+| Link to game repo in Github | Click on Github icon on right bottom corner | Link takes user to Github repo | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-stories-8.png">
+</details>
+
 ## Bugs
 - Bug in javascript file for missing semicolons. Fixed by adding corresponding semicolons
 - Bug in footer anchor element due to extra closing tag. Fixed by deleting
