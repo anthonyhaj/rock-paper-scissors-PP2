@@ -101,6 +101,21 @@
 - Microsoft Paint
 - TinyPNG
 
+## Features
+
+### Game title
+- Title of the game in retro game font
+
+<details><summary>See feature</summary>
+<img src="docs/features/title-feature.png">
+</details>
+
+### Move selection
+- 3 button prompting user to choose a move starting the first round
+
+<details><summary>See feature</summary>
+<img src="docs/features/chose-move-feature.png">
+</details>
 
 
 
