@@ -13,10 +13,9 @@
     - [Site User](#site-user)
     - [Site Owner](#site-owner)
   - [Design](#design)
-    - [Colour Scheme](#colour-scheme)
+    - [Color Scheme](#colour-scheme)
     - [Fonts](#fonts)
     - [Structure](#structure)
-    - [Wireframes](#wireframes)
   - [Technologies Used](#technologies-used)
     - [Languages](#languages)
     - [Frameworks, Libraries & Tools](#frameworks-libraries--tools)
@@ -73,6 +72,20 @@
   - I want the user to see an animation of the computer choice
   - I want the score to update correctly for user and computer
   - I want the user to be able to see the repo for the game
+
+ ## Design
+
+ ### Color Scheme
+- For the color scheme I went with a simple black and white
+
+### Fonts
+- For the font I went with a retro game style taken from google fonts called "Press Start 2P"
+
+### Structure
+- The game was created using just one page consisting of a container for the main game
+
+
+
 
 
 
