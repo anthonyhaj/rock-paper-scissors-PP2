@@ -148,7 +148,7 @@ footer {
     position: fixed;
     top: 90%;
     width: 90%;
-    padding: 20px;
+    padding: 30px;
 }
 .p-footer p {
     font-size: 0.7rem;
@@ -161,6 +161,7 @@ footer {
     float: right;
     transform: scale(3.2);
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 /* media queries */

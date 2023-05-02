@@ -204,6 +204,8 @@ All browsers respond well. All fonts, links, and images work as expected.
 <img src="docs/user-stories/user-stories-1.png">
 </details>
 
+
+
 2. I want to see what move the computer has chosen
 
 | **Feature**         | **Action**         | **Expected Result**                          | **Actual Result** |
@@ -213,6 +215,8 @@ All browsers respond well. All fonts, links, and images work as expected.
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-stories-2.png">
 </details>
+
+
 
 3. I want to keep track of the score
 
@@ -224,6 +228,8 @@ All browsers respond well. All fonts, links, and images work as expected.
 <img src="docs/user-stories/user-stories-3.png">
 </details>
 
+
+
 4. I want to know if I have won or lost the game
 
 | **Feature**  | **Action**                               | **Expected Result**                          | **Actual Result** |
@@ -233,6 +239,8 @@ All browsers respond well. All fonts, links, and images work as expected.
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-stories-4.png">
 </details>
+
+
 
 5. I want to be able to play again
 
@@ -244,6 +252,8 @@ All browsers respond well. All fonts, links, and images work as expected.
 <img src="docs/user-stories/user-stories-5.png">
 </details>
 
+
+
 6. I want the user to see an animation of the computer choice
 
 | **Feature**         | **Action**                       | **Expected Result**                      | **Actual Result** |
@@ -253,6 +263,8 @@ All browsers respond well. All fonts, links, and images work as expected.
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-stories-6.png">
 </details>
+
+
 
 7. I want the score to update correctly for user and computer
 
@@ -264,6 +276,8 @@ All browsers respond well. All fonts, links, and images work as expected.
 <img src="docs/user-stories/user-stories-7.png">
 </details>
 
+
+
 8. I want the user to be able to see the repo for the game
 
 | **Feature**                 | **Action**                                  | **Expected Result**            | **Actual Result** |
@@ -273,6 +287,8 @@ All browsers respond well. All fonts, links, and images work as expected.
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-stories-8.png">
 </details>
+
+
 
 ## Bugs
 - Bug in javascript file for missing semicolons. Fixed by adding corresponding semicolons
