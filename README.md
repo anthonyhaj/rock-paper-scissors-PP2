@@ -215,8 +215,23 @@ All browsers respond well. All fonts, links, and images work as expected.
 <img src="docs/user-stories/user-stories-2.png">
 </details>
 
+3. I want to keep track of the score
 
+| **Feature**         | **Action**                       | **Expected Result**                          | **Actual Result** |
+| ------------------- | -------------------------------- | -------------------------------------------  | ----------------- |
+| Scoreboard          | Choosing each move updates score | Game updates score based on win or lose      | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-stories-3.png">
+</details>
 
+4. I want to know if I have won or lost the game
 
+| **Feature**         | **Action**                               | **Expected Result**                          | **Actual Result** |
+| ------------------- | ---------------------------------------- | -------------------------------------------  | ----------------- |
+| Game Result         | Game result updates on win or lose state | Game notifies when player wins or loses      | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-stories-4.png">
+</details>
 

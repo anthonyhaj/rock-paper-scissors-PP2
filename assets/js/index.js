@@ -81,7 +81,7 @@ function playRound(playerMove) {
 
                 updatePlayerMoveImage(playerMove);
 
-                if (round === 10) {
+                if (round === 15) {
                     if (playerScore > computerScore) {
                         resultDisplay.textContent = 'You win the game!';
                     } else if (computerScore > playerScore) {
