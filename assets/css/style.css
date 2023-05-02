@@ -109,8 +109,9 @@ header h1 {
     margin-bottom: 0.625rem;
 }
 
-.result p {
-    font-size: 2rem;
+#result-text {
+    font-size: 1rem;
+    padding: 5px;
 }
 
 /* play again button */
@@ -119,6 +120,7 @@ header h1 {
 }
 
 .play-again button {
+    display: block;
     font-size: 1.125rem;
     padding: 0.5rem;
     border: none;
