@@ -1,9 +1,11 @@
 // Define global variables to keep track of the game state
 let playerScore = 0;
 let computerScore = 0;
+let round = 1;
+
 
 // Get references to the relevant HTML elements
-const rockButtton = document.getElementById("rock-button");
+const rockButton = document.getElementById("rock-button");
 const paperButton = document.getElementById("paper-button");
 const scissorsButton = document.getElementById("scissors-button");
 const playAgainButton = document.getElementById("play-again-button");
@@ -62,7 +64,7 @@ function playRound(playerMove) {
         } else {
             resultDisplay.textContent = "It's a tie game!"
         }
-        rockButtton.disabled = true;
+        rockButton.disabled = true;
         paperButton.disabled = true;
         scissorsButton.disabled = true;
     } else {
@@ -71,16 +73,14 @@ function playRound(playerMove) {
 }
 
 // Event listeners for player moves
-newFunction();
 
-function newFunction() {
-    rockButtton.addEventListener('click', function () {
-        playRound('rock');
-    });
-    paperButton.addEventListener('click', function () {
-        playRound('paper');
-    });
-    scissorsButton.addEventListener('click', function () {
-        playRound('scissors');
-    });
-}
+rockButton.addEventListener('click', function () {
+    playRound('rock');
+});
+paperButton.addEventListener('click', function () {
+    playRound('paper');
+});
+scissorsButton.addEventListener('click', function () {
+    playRound('scissors');
+});
+
