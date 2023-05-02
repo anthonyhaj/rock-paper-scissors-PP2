@@ -34,4 +34,7 @@ function updateComputerMoveImage(computerMove) {
 }
 
 // Function to play a single round of the game
+function playRound(playerMove) {
+    const computerMove = getComputerMove();
+    updateComputerMoveImage(computerMove);
 
