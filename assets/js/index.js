@@ -17,5 +17,18 @@ const computerMoveImg = document.querySelector('.computer-move img');
 function getComputerMove() {
     const moves = ['rock', 'paper', 'scissors'];
     const randomIndex = Math.floor (math.random() * moves.length);
-    return moves[randomIndex];
+    const computerMove = moves[randomIndex];
+    switch (computerMove) {
+        case 'rock':
+            computerMoveImg.src = './assets/images/rock.png';
+            break;
+            case 'paper':
+            computerMoveImg.src = './assets/images/paper.png';
+            break;
+        case 'scissors':
+            computerMoveImg.src = './assets/images/scissors.png';
+            break;
+    }
+    return computerMove;
 }
+
