@@ -64,7 +64,7 @@ function playRound(playerMove) {
                 updateComputerMoveImage(computerMove);
 
                 if (playerMove === computerMove) {
-                    resultDisplay.textContent = "It's a Tie!"
+                    resultDisplay.textContent = "It's a Tie!";
                 } else if (
                     (playerMove === 'rock' && computerMove === 'scissors') ||
                     (playerMove === 'paper' && computerMove === 'rock') ||
@@ -83,11 +83,11 @@ function playRound(playerMove) {
 
                 if (round === 10) {
                     if (playerScore > computerScore) {
-                        resultDisplay.textContent = 'You win the game!'
+                        resultDisplay.textContent = 'You win the game!';
                     } else if (computerScore > playerScore) {
-                        resultDisplay.textContent = 'You lose the game!'
+                        resultDisplay.textContent = 'You lose the game!';
                     } else {
-                        resultDisplay.textContent = "It's a tie game!"
+                        resultDisplay.textContent = "It's a tie game!";
                     }
                     rockButton.disabled = true;
                     paperButton.disabled = true;
