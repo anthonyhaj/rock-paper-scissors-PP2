@@ -17,7 +17,11 @@ const computerMoveImg = document.querySelector('.computer-move img');
 function getComputerMove() {
     const moves = ['rock', 'paper', 'scissors'];
     const randomIndex = Math.floor (math.random() * moves.length);
-    const computerMove = moves[randomIndex];
+    return moves[randomIndex];
+}
+
+// Function to update the computer move image
+function updateComputerMoveImage(computerMove) {
     switch (computerMove) {
         case 'rock':
             computerMoveImg.src = './assets/images/rock.png';
@@ -29,6 +33,5 @@ function getComputerMove() {
             computerMoveImg.src = './assets/images/scissors.png';
             break;
     }
-    return computerMove;
 }
 
