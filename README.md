@@ -84,6 +84,22 @@
 ### Structure
 - The game was created using just one page consisting of a container for the main game
 
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+- Javascript
+
+### Frameworks, Libraries & Tools
+- Git
+- Github
+- Am I Responsive
+- Font Awesome
+- WC3 Validator
+- Google Fonts
+- Microsoft Paint
+- TinyPNG
 
 
 
