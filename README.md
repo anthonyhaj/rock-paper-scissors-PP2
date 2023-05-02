@@ -155,7 +155,7 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 </details>
 
 ### Javascript Validation
-- JsHint JS Validation Service was used to validate the Javascript code. No errors found
+JsHint JS Validation Service was used to validate the Javascript code. No errors found
 
 <details><summary>Js Code</summary>
 <img src="docs/validation/jshint-validator.png">
@@ -168,7 +168,12 @@ The WAVE WebAIM web accessibility evaluation tool was used to test accessibility
 <img src="docs/validation/wave-validator.png">
 </details>
 
+### Performance
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance 
 
+<details><summary>Lighthouse Validator</summary>
+<img src="docs/validation/lighthouse.png">
+</details>
 
 
 
