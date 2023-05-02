@@ -38,3 +38,19 @@ function playRound(playerMove) {
     const computerMove = getComputerMove();
     updateComputerMoveImage(computerMove);
 
+    if (playerMove === computerMove) {
+        resultDisplay.textContent = "It's a Tie!"
+    } else if (
+        (playerMove === 'rock' && computerMove === 'scissors') ||
+        (playerMove === 'paper' && computerMove === 'rock') ||
+        (playerMove === 'scissors' && computerMove === 'paper')
+    ) {
+        resultDisplay.textContent = 'You Win!';
+        playerScore++;
+        playerScoreDisplay.textContent = playerScore;
+    } else {
+        resultDisplay.textContent = 'Computer Wins!';
+        computerScore++;
+        computerScoreDisplay.textContent = computerScore;
+    }
+
