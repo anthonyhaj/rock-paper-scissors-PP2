@@ -22,16 +22,16 @@ function getComputerMove() {
 
 // Function to update the computer move image
 function updateComputerMoveImage(computerMove) {
-    switch (computerMove) {
-        case 'rock':
-            computerMoveImg.src = './assets/images/rock.png';
-            break;
-            case 'paper':
-            computerMoveImg.src = './assets/images/paper.png';
-            break;
-        case 'scissors':
-            computerMoveImg.src = './assets/images/scissors.png';
-            break;
+    let computerImage = '';
+    if (computerMove === 'rock') {
+        computerImage = './assets/images/rock.png';
+    } else if (computerMove === 'paper') {
+        computerImage = './assets/images/paper.png';
+    } else if (computerMove === 'scissors') {
+        computerImage = './assets/images/scissors.png';
     }
+    computerMoveImg.src = computerImage;
 }
+
+// Function to play a single round of the game
 
