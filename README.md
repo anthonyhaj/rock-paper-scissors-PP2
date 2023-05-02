@@ -4,6 +4,7 @@
 
 [Visit live website](https://anthonyhaj.github.io/rock-paper-scissors-PP2/)
 
+![Mockup image](docs/validation/am-i-responsive.png)
 
 ## Table of Content
   - [Project Goals](#project-goals)
