@@ -2,6 +2,9 @@
 
 **Developer: Anthony Haj Ibrahim**
 
+[Visit live website](https://anthonyhaj.github.io/rock-paper-scissors-PP2/)
+
+
 ## Table of Content
   - [Project Goals](#project-goals)
     - [User Goals](#user-goals)
