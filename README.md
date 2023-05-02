@@ -175,6 +175,17 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <img src="docs/validation/lighthouse.png">
 </details>
 
+## Testing
+The website was tested using Google Chrome Developer Tools sizing all available devices
+
+The website was tested on:
+- iPhone 12 pro
+- iPad mini
+- Lenovo Thinkpad (PC)
+- iPhone 7
+- iPhone X
+
+
 
 
 
