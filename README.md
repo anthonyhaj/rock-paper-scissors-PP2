@@ -304,7 +304,17 @@ All browsers respond well. All fonts, links, and images work as expected.
 
 ## Credits
 
+### Images
+- Hand gesture images for rock, paper, and scissor taken from creazilla.com
+- Background image of black board taken from unsplash.com
+- Favicon icon for Github link and footer paragraph icon taken from fontawesome.com
 
+### Code
+- All code in this project was written by me using only basic HTML, CSS, and Javascript
+
+### Acknowledgements
+- I would like to thank my mentor Mo Shami for his wonderful support 
+- I would like to thank my family for their support through my coding journey
 
 
 
